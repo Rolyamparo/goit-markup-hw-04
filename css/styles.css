@@ -192,14 +192,15 @@ body {
     flex-direction: flex-start;
     padding-top: 188px;
     padding-bottom: 292px;
+    
     }
    
 .dark {
     background-color: var(--navy-blue);
         
     }
-hero dark {
-    background: gray;
+.hero {
+    /* background: var(--GREY, rgba(46, 47, 66, 0.70)); */
 }
 
 h1 {
@@ -350,6 +351,22 @@ h4 {
     padding-top: 32px;
 }
 
+h5 {
+    /* Header 4 */
+    color: var(--white);
+    line-height: 0;
+    letter-spacing: 0.72px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    list-style-type: none;
+    text-decoration: none;
+  
+    
+}
+
+
+
 p {
     color: var(--slate); 
     font-size: 16px;
@@ -396,13 +413,32 @@ footer {
     text-decoration: none;
     color: var(--white); 
     padding-top: 100px;
-    margin-left: 100px;
-            
+    margin-left: 85px;
+    
+       
+    }
+
+.footers {
+    display: inline-flex;
+   
+    width: 1440px;
+
+}
+
+.team-footer {
+
+  
+    margin-top: 70px;
+    margin-left: 175px;
+    padding: 32px;
+  
+    
+    
+    
     }
     
 span {
     color: var(--iris); 
-    
     text-align: left;
      padding-top: 100px;
            
@@ -416,7 +452,7 @@ span {
       /* 150% */
     letter-spacing: 0.32px;
     padding-top: 22px;
-    margin-left: 100px;
+    margin-left: 85px;
     text-align: left;
     margin-bottom: 100px;
            
@@ -427,29 +463,34 @@ span {
             font-size: 16px;
             font-weight: 400;
             letter-spacing: 0.32px;
-            text-align: center;
+                     
         }
-    
         .team-socials {
-            display: flex;
+           
+            align-items: center;
             justify-content: space-around;
-            margin-bottom: 32px;
-    
+            align-items: center;
         }
+        
     
         .team-socials-icon {
             background-color: var(--iris);
             border-radius: 50%;
             height: 40px;
             width: 40px;
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
+            
+        
     
         }
     
+
+
         .team-socials-icon svg {
             fill: white;
+            gap: 32px;
         }
     
         .customer-icon {
@@ -458,13 +499,14 @@ span {
             display: inline-flex;
             align-items: center;
             justify-content: space-around;
-            gap: 24px;
+            
         }
     
         .customer-icon svg {
             fill: #8e8f99;
             justify-content: space-around;
             display: inline-flex;
+            text-align: center;
         }
     
         .customer-icon:hover,
@@ -476,10 +518,14 @@ span {
         .customer-icon:focus svg {
             fill: var(--iris);}
         
-           
-                display: inline-flex;
-                justify-content: space-around;
+        .list {   
                 display: flex;
                 justify-content: space-around;
+                text-align: center;
+                margin-left: 120px;
+                margin-right: 156px;
+                
+        }
+
 
           
