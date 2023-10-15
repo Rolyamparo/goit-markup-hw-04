@@ -183,6 +183,7 @@ body {
     }
 
 .hero {
+    
     background-image: url("../images/Backgroud\ photo.jpg");
     /* background: var(--GREY, rgba(46, 47, 66, 0.70)); */
     background-size: cover;
@@ -374,7 +375,8 @@ p {
     font-weight: 400;
     line-height: 1.5;        
     letter-spacing: 0.32px;
-    text-align: center;                
+    text-align: center;   
+             
     }
 
 
@@ -415,32 +417,24 @@ footer {
     text-decoration: none;
     color: var(--white); 
     padding-top: 100px;
-    margin-left: 85px;
-    
+    margin-left: 85px;  
     
        
     }
 
 .footers {
-    display: inline-flex;
-    
-    width: 1440px;
-    
+    display: inline-flex;    
+    width: 1440px;  
 
 
 }
 
-.team-footer {
-
-  
-    margin-top: 70px;
-    margin-left: 175px;
+.team-footer { 
+     margin-top: 10px; 
+    gap: 16px;
     
     
     }
-
-
-
 
 span {
     color: var(--iris); 
@@ -460,19 +454,50 @@ span {
     margin-left: 85px;
     text-align: left;
     margin-bottom: 100px;
+    
+    
            
     }
 
-        .team-icon {
-            color: var(--slate);
-            font-size: 16px;
-            font-weight: 400;
-            letter-spacing: 0.32px;
+ .team-icon {
+    color: var(--slate);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
                      
-        }
-            
+    }
+ .team-socials {
+    display: flex; 
+    justify-content: space-around
     
-        .team-socials-icon {
+ }           
+ 
+ .team-footer {
+     display: flex;
+     
+     margin-left: 50px;
+     
+ }
+ 
+ .footer-text {
+    margin-top: 100px;
+   
+ }
+
+.team-socials-icon {
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+     align-items: center;
+    justify-content: space-around; 
+    margin-bottom: 32px;
+    gap: 32px;
+    
+    }
+
+        .team-footer-icon {
             background-color: var(--iris);
             border-radius: 50%;
             height: 40px;
@@ -480,48 +505,50 @@ span {
             display: inline-flex;
             align-items: center;
             justify-content: space-around;
-              
-               
+            margin-bottom: 32px;
+            gap: 32px;
     
         }
-    
-        .team-socials-icon svg {
-            fill: white;
+        .team-footer-icon svg {
+            fill: white;}
+
+.team-socials-icon svg {
+    fill: white;
+    gap: 16px;
             
-        }
+    }
     
-        .customer-icon {
-            border: 1px solid #8e8f99;
-            padding: 16px 32px;
-            display: flex;
-            text-align: center;
-                  
+.customer-icon {
+    border: 2px solid #8e8f99;
+    padding: 16px 32px;
+    display: flex;
+    text-align: center;  
+    justify-content: center
+    
+    
             
-        }
+     }
     
-        .customer-icon svg {
-            fill: #8e8f99;
-            justify-content: space-around;
-            display: inline-flex;
-            text-align: center;
-        }
+.customer-icon svg {
+    fill: #8e8f99;
+    justify-content: space-around;
+    display: inline-flex;
+    text-align: center;
     
-        .customer-icon:hover,
-        .customer-icon:focus {
-            border-color: var(--iris);
-        }
+     }
     
-        .customer-icon:hover svg,
-        .customer-icon:focus svg {
-            fill: var(--iris);}
+.customer-icon:hover,
+.customer-icon:focus {
+    border-color: 2px solid var(--iris);
+    }
+    
+
         
-        .list {   
-                display: flex;
-                
-                
-                margin-left: 120px;
-                margin-right: 156px;
-                gap: 24px;
+.list {   
+    display: flex;              
+    margin-left: 120px;
+    margin-right: 156px;
+    gap: 24px;
         }
 
 
