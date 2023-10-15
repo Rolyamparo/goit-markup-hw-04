@@ -193,6 +193,7 @@ body {
     flex-direction: flex-start;
     padding-top: 188px;
     padding-bottom: 292px;
+    background-color: var(--GREY, rgba(46, 47, 66, 0.70));
     
     }
    
@@ -417,7 +418,7 @@ footer {
     text-decoration: none;
     color: var(--white); 
     padding-top: 100px;
-    margin-left: 85px;  
+    margin-left: 80px;  
     
        
     }
@@ -451,7 +452,7 @@ span {
       /* 150% */
     letter-spacing: 0.32px;
     padding-top: 22px;
-    margin-left: 85px;
+    margin-left: 75px;
     text-align: left;
     margin-bottom: 100px;
     
