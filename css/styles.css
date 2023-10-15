@@ -314,6 +314,7 @@ h2 {
 
 .services-offered {
     display: inline-flex;
+    align-items: center;
     margin-left: 12px; 
     margin-right: 12px;      
     width: 360px;
@@ -407,7 +408,8 @@ footer {
     line-height: 21px;
         /* 116.667% */
     letter-spacing: 0.54px;  
-    height: 312px;          
+    height: 312px;  
+    gap: 24px;
     }
 .footer {
     text-decoration: none;
@@ -415,13 +417,16 @@ footer {
     padding-top: 100px;
     margin-left: 85px;
     
+    
        
     }
 
 .footers {
     display: inline-flex;
-   
+    
     width: 1440px;
+    
+
 
 }
 
@@ -430,13 +435,13 @@ footer {
   
     margin-top: 70px;
     margin-left: 175px;
-    padding: 32px;
-  
-    
     
     
     }
-    
+
+
+
+
 span {
     color: var(--iris); 
     text-align: left;
@@ -465,13 +470,7 @@ span {
             letter-spacing: 0.32px;
                      
         }
-        .team-socials {
-           
-            align-items: center;
-            justify-content: space-around;
-            align-items: center;
-        }
-        
+            
     
         .team-socials-icon {
             background-color: var(--iris);
@@ -481,24 +480,22 @@ span {
             display: inline-flex;
             align-items: center;
             justify-content: space-around;
-            
-        
+              
+               
     
         }
     
-
-
         .team-socials-icon svg {
             fill: white;
-            gap: 32px;
+            
         }
     
         .customer-icon {
             border: 1px solid #8e8f99;
             padding: 16px 32px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: space-around;
+            display: flex;
+            text-align: center;
+                  
             
         }
     
@@ -520,11 +517,11 @@ span {
         
         .list {   
                 display: flex;
-                justify-content: space-around;
-                text-align: center;
+                
+                
                 margin-left: 120px;
                 margin-right: 156px;
-                
+                gap: 24px;
         }
 
 
