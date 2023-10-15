@@ -185,7 +185,6 @@ body {
 .hero {
     
     background-image: url("../images/Backgroud\ photo.jpg");
-    /* background: var(--GREY, rgba(46, 47, 66, 0.70)); */
     background-size: cover;
     text-align: center;
     width: 1440px;
@@ -193,7 +192,8 @@ body {
     flex-direction: flex-start;
     padding-top: 188px;
     padding-bottom: 292px;
-    background-color: var(--GREY, rgba(46, 47, 66, 0.70));
+    background-color: red;
+    background-repeat: no-repeat;
     
     }
    
@@ -465,6 +465,7 @@ span {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.32px;
+    
                      
     }
  .team-socials {
@@ -498,20 +499,20 @@ span {
     
     }
 
-        .team-footer-icon {
-            background-color: var(--iris);
-            border-radius: 50%;
-            height: 40px;
-            width: 40px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: space-around;
-            margin-bottom: 32px;
-            gap: 32px;
+.team-footer-icon {
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 32px;
+    gap: 32px;
     
-        }
-        .team-footer-icon svg {
-            fill: white;}
+    }
+.team-footer-icon svg {
+    fill: white;}
 
 .team-socials-icon svg {
     fill: white;
@@ -545,10 +546,11 @@ span {
     
 
         
-.list {   
+.customer {   
     display: flex;              
     margin-left: 120px;
     margin-right: 156px;
+    margin-bottom: 120px;
     gap: 24px;
         }
 
